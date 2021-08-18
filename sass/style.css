@@ -1,0 +1,265 @@
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container .nav {
+  display: flex;
+  gap: 0 60px;
+  align-items: center;
+}
+
+header .container .nav p {
+  color: #6e7177;
+  font-weight: 300px;
+}
+
+header .container .nav p a {
+  color: #393e46;
+  font-weight: 600;
+}
+
+.hero {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
+
+.hero img {
+  margin-left: auto;
+  position: relative;
+}
+
+.hero .hero-content {
+  position: absolute;
+  top: 40%;
+  z-index: 2;
+}
+
+.hero .hero-content h1 {
+  font-size: 150px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.hero .hero-content h2 {
+  font-size: 72px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.hero .hero-content a {
+  font-size: 18px;
+  text-decoration: underline;
+  color: #838a94;
+}
+
+.portfolios .portfolio-list {
+  display: grid;
+  gap: 0 90px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 95px;
+}
+
+.portfolios .portfolio-list .portfolio-column .portfolio-item img {
+  margin-bottom: 30px;
+}
+
+.portfolios .portfolio-list .portfolio-column .portfolio-item .portfolio-link {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 85px;
+  color: #9298a1;
+}
+
+.portfolios button {
+  background-color: #4a44f2;
+  padding: 18px 68px;
+  border-radius: 5px;
+  position: relative;
+  left: 50%;
+  margin-bottom: 270px;
+}
+
+.portfolios button a {
+  color: white;
+  font-weight: 800;
+}
+
+.portfolios button:hover {
+  cursor: pointer;
+}
+
+.partner {
+  margin-bottom: 200px;
+}
+
+.partner .container {
+  padding: 0 60px;
+}
+
+.partner .partner-main {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 100px 70px;
+}
+
+.team {
+  background-color: #f8f8f9;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  margin-bottom: 150px;
+}
+
+.team .container {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 130px;
+}
+
+.team .container .team-main {
+  max-width: 370px;
+}
+
+.team .container .team-main button {
+  background-color: #4a44f2;
+  padding: 18px 68px;
+  border-radius: 5px;
+}
+
+.team .container .team-main button a {
+  color: white;
+  font-weight: 800;
+}
+
+.team .container .team-main button:hover {
+  cursor: pointer;
+}
+
+.team .container .team-main p {
+  margin: 40px 0 60px 0;
+}
+
+.team .container .team-imgs {
+  display: flex;
+  gap: 30px 30px;
+  align-items: center;
+}
+
+.team .container .team-imgs .img2 {
+  margin-top: 30px;
+  margin-left: auto;
+}
+
+.blog {
+  margin-bottom: 150px;
+}
+
+.blog .blog-header {
+  max-width: 560px;
+  text-align: center;
+  margin: 0 auto 100px;
+}
+
+.blog .blog-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0px 30px;
+}
+
+.blog .blog-list h4 {
+  margin: 40px 0px 20px 0px;
+}
+
+.contact {
+  background-image: url(../images/contact-bg.png);
+}
+
+.contact .container {
+  padding: 140px 0;
+  align-items: center;
+  max-width: 600px;
+}
+
+.contact .container .contact-header h6 {
+  font-size: 36px;
+  line-height: 1.4;
+  color: white;
+}
+
+.contact .container .contact-header p {
+  font-size: 18px;
+  line-height: 34px;
+  color: white;
+  margin: 40px auto;
+}
+
+.contact .container form {
+  max-width: 570px;
+}
+
+.contact .container form input, .contact .container form textarea {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #af6b6a;
+  padding: 20px 5px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.contact .container form input::-webkit-input-placeholder, .contact .container form textarea::-webkit-input-placeholder {
+  color: white;
+}
+
+.contact .container form input:hover, .contact .container form textarea:hover {
+  border-color: white;
+}
+
+.contact .container form .btnSubmit {
+  height: 67px;
+  width: 270px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 18px;
+  background-image: url(../images/btn.png);
+}
+
+.footer-top {
+  color: #78808c;
+  background-color: #282f3a;
+  padding: 140px 0;
+}
+
+.footer-top .footer-main {
+  display: flex;
+}
+
+.footer-top .footer-main .footer-column:nth-child(3) {
+  padding: 0 150px 0 120px;
+}
+
+.footer-top .footer-main .footer-column a {
+  color: #78808c;
+}
+
+.footer-top .footer-main .footer-column a:hover {
+  color: white;
+}
+
+.space {
+  margin: 45px 0;
+}
+
+.footer-bottom {
+  background-color: #252b36;
+}
+
+.footer-bottom .container {
+  padding: 70px 0;
+}
+
+.footer-bottom .container p {
+  color: #5e6571;
+}

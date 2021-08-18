@@ -1,0 +1,73 @@
+@mixin maxw($breakpoint) {
+    @media screen and (max-width: $breakpoint) {
+      @content;
+    }
+  }
+  @mixin minw($breakpoint) {
+    @media screen and (min-width: $breakpoint) {
+      @content;
+    }
+  }
+
+  @include maxw(1366px) {
+    .hero{
+        .hero-content{
+          left: 25%;
+            h1{
+                font-size: 3rem;
+            }
+            h2{
+                font-size: 2rem;
+            
+        }
+    }
+        img{
+            width: 65%;
+            
+        }
+    }
+    
+   
+
+  }
+@include maxw(768px){
+  .portfolios {
+    .portfolio-list{
+      grid-template-columns: repeat(1, 1fr);
+      .portfolio-column{
+        display: block;
+        .portfolio-item{
+          display: flex;
+          img{
+            display: inline-block;
+            width: 30%;
+            height: 10%;
+            margin-right: 5%;
+          }
+          div{
+            margin-top: 10%;
+          }
+
+        }
+        
+      }
+    }
+    
+  }
+  .blog{
+    .blog-list{
+      grid-template-columns: repeat(1, 1fr);
+     
+      .blog-item{
+        display: flex;
+        margin-bottom: 50px;
+        img{
+          width: 30%;
+          margin-right: 5%;
+        }
+      }
+    }
+
+  }
+
+}
